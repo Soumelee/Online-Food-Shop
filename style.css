@@ -390,7 +390,7 @@ header .icons #menu-bars {
 }
 
 .menu .box-container .box .image {
-    height: 25rem;
+    height: 30rem;
     width: 100%;
     padding: 1.5rem;
     overflow: hidden;
@@ -401,7 +401,7 @@ header .icons #menu-bars {
     height: 100%;
     width: 100%;
     border-radius: .5rem;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 .menu .box-container .box .image .fa-heart {
