@@ -8,6 +8,23 @@ menu.onclick = () => {
 
 }
 
+const navBar = document.querySelectorAll("header .navbar a");
+const sec = document.querySelectorAll("section");
+
+function activeMenu() {
+    let len = sec.length;
+    while (--len && window.scrollY + 97 < sec[len].offsetTop) {
+
+    }
+
+    navBar.forEach(ltx => ltx.classList.remove("active"));
+    navBar[len].classList.add("active");
+}
+
+window.addEventListener("scroll", activeMenu);
+
+
+
 
 window.onscroll = () => {
     menu.classList.remove('fa-times');
