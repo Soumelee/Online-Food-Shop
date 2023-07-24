@@ -551,7 +551,8 @@ header .icons #menu-bars {
 
 .order form .inputbox .input input:focus,
 .order form .inputbox .input textarea:focus {
-    border: .1rem solid var(--green);
+    /* border: .1rem solid var(--green); */
+    outline: .1rem solid var(--green);
 }
 
 .order form .inputbox .input textarea {
